@@ -1,0 +1,12 @@
+---
+ip: '10.10.10.102'
+
+provision_script: 'scripts/bootstrap.sh'
+
+system_synced_folder:
+  local: ~/working/ansible_rails
+  remote: /home/vagrant/ansible
+
+
+memory: 1024
+cpu: 1
